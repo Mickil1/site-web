@@ -1,0 +1,4 @@
+/* Mise en place du css pour le pop-up de la map*/
+.InfoMap{
+   visibility: hidden; 
+}
