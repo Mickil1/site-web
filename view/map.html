@@ -18,6 +18,7 @@
             href="#St-Paul"
             target="_blank" 
             alt="St-Paul">
+            <area shape="circle" coords="300,120,260" href="#tranquille" alt="Tranquille">
         </map>
     </div>
     
@@ -29,6 +30,20 @@
         </div>
     </div>
 
-    <script src="/workspace/site-web/Include/javascript/jquery-3.5.1.js"></script>
-    <script src="/workspace/site-web/Include/javascript/main.js"></script>
+    <script type="text/javascript" src="Include/javascript/jquery-3.5.1.js"></script>
+    <script type="text/javascript" src="Include/javascript/main.js"></script>
+    <script type="text/javascript">
+    $('map').imageMapResize();
+
+    //pop-up map
+    $('area').each(function pol(){
+        var area = $(this),
+            alt = area.attr('alt');
+        area.mouseenter(function pierre(){
+            $('#Overlay').html(alt);
+        }).mouseleave(function jacque(){
+            $('#Overlay').html('');
+        });
+    });
+</script>
 </body>
