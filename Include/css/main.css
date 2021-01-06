@@ -1,4 +1,17 @@
+img{
+    width: 100%;
+    height: 100%;
+}
+
 /* Mise en place du css pour le pop-up de la map*/
-.InfoMap{
-   visibility: hidden; 
+#map {
+    position: relative;
+}
+#overlay {
+    position: absolute;
+    text-align:justify;
+    background: #000;
+    color: #fff;
+    top: 20px;
+    left: 20px;
 }
