@@ -1,3 +1,4 @@
+
 $('map').imageMapResize();
 
 //pop-up map
