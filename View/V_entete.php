@@ -11,7 +11,7 @@
 <header>
 
     <nav>
-        <ul>
+        <ul id="navbar">
             <li><a href="">Accueil</a></li>
             <li><a href="./Contenu/History.html">Histoire</a></li>
             <li><a href="./Contenu/Map.html">Carte</a></li>
